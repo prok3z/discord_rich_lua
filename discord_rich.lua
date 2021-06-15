@@ -10,7 +10,7 @@ Citizen.CreateThread(function()
         end
         SetDiscordAppId(710290194489933857) -- ID DO APP AQUI			
 		SetDiscordRichPresenceAssetText('DESCRIÇÃO AQUI') -- PNG DESCRIÇÃO 1 TEXTO
-        SetDiscordRichPresenceAsset('Programa Aki')-- Nome do Programa Aki
-        SetRichPresence("Cidadões Presentes: "..#players)
+        SetDiscordRichPresenceAsset('Programa Aki')-- Nome do programa Aki
+        SetRichPresence("Cidadões Presentes: "..#players)# -- Programa
     end	
 end)
